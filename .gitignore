@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment
+.venv/
+env/
+venv/
+
+# VSCode or other IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Byte-compiled / cache files
+*.so
+*.egg-info/
+dist/
+build/
