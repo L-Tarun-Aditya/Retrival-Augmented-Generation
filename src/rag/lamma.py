@@ -1,8 +1,11 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
+load_dotenv()  
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 completion = client.chat.completions.create(

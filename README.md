@@ -8,4 +8,11 @@ Such sytems have a wide range of applicatiions which include searching through a
 
 you can:
 - upload a large set of documents and ask it questions such as "summarize these documents" or "give me a bullet point list of the pre-requisites needed to understand these"
-- provide audio files and perform natural language search on it such as "what is the tone of the person in the audio" or "generate a transcript of the audio" or ""
+- provide audio files and perform natural language search on it such as "what is the tone of the person in the audio" or "generate a transcript of the audio"
+
+
+## Progress so far
+- used llama openrouter as the LLM
+- used pypdf2 to extract the text
+- used langchain text-splitters to chunck them
+- used tiktokenizer(by openai) to convert them into tokens
