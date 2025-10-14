@@ -1,0 +1,21 @@
+# Core dependencies
+google-genai
+google-generativeai  # Official Google Gemini API client
+langchain           # Framework for building RAG systems
+sentence-transformers  # For generating embeddings
+faiss-cpu            # Vector store for similarity search
+pandas               # Data manipulation (optional, for document ingestion)
+numpy              # Numerical operations
+
+# Utilities for document processing
+PyPDF2              # For PDF document ingestion
+beautifulsoup4      # For HTML parsing
+requests           # For HTTP requests
+
+# Logging and debugging
+python-dotenv       # For managing environment variables
+loguru             # Enhanced logging
+
+# Optional: For advanced text preprocessing
+nltk                 # Natural Language Toolkit
+spacy               # Advanced NLP library
