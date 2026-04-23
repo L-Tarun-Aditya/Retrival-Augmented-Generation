@@ -46,7 +46,7 @@ npm run dev
 
 Frontend runs on http://localhost:3000
 
-## Step 6: Start Chatting! 🎉
+## Step 6: Start Chatting! 
 
 1. Open http://localhost:3000 in your browser
 2. Ask questions like:

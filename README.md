@@ -2,17 +2,17 @@
 
 A complete RAG (Retrieval-Augmented Generation) system for querying software engineering documents using semantic search and LLM responses.
 
-## 🌟 Features
+##  Features
 
-- 📄 **PDF Processing** - Extract text from PDF documents
-- ✂️ **Smart Chunking** - Split documents into semantic chunks
-- 🔢 **Vector Embeddings** - Generate embeddings using sentence-transformers
-- 🗄️ **Vector Database** - Store and retrieve with ChromaDB
-- 🤖 **LLM Integration** - Generate answers using Llama 3.3 via OpenRouter
-- 🎨 **Modern UI** - Beautiful chat interface with Next.js and shadcn/ui
-- ⚡ **Fast API** - FastAPI backend for efficient processing
+-  **PDF Processing** - Extract text from PDF documents
+-  **Smart Chunking** - Split documents into semantic chunks
+-  **Vector Embeddings** - Generate embeddings using sentence-transformers
+-  **Vector Database** - Store and retrieve with ChromaDB
+-  **LLM Integration** - Generate answers using Llama 3.3 via OpenRouter
+-  **Modern UI** - Beautiful chat interface with Next.js and shadcn/ui
+-  **Fast API** - FastAPI backend for efficient processing
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Retrival-Augmented-Generation/
@@ -37,7 +37,7 @@ Retrival-Augmented-Generation/
 └── SETUP.md
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -80,11 +80,11 @@ npm run dev
 - API: http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
-## 📖 Detailed Setup
+## Detailed Setup
 
 See [SETUP.md](SETUP.md) for detailed instructions.
 
-## 🎯 Usage
+## Usage
 
 ### Extract PDFs
 ```bash
@@ -109,7 +109,7 @@ curl -X POST http://localhost:8000/query \
   -d '{"question": "What is software engineering?", "n_results": 3}'
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Python 3.8+**
@@ -127,7 +127,7 @@ curl -X POST http://localhost:8000/query \
 - **shadcn/ui** - UI components
 - **Lucide React** - Icons
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### `GET /`
 Health check
