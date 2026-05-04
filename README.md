@@ -153,7 +153,7 @@ Response:
 ### `POST /rebuild-index`
 Rebuild the vector store from documents
 
-## 🎨 Frontend Features
+## Frontend Features
 
 - Real-time chat interface
 - Message history
@@ -183,22 +183,22 @@ Edit `src/rag/rag_system.py`:
 model="meta-llama/llama-3.3-70b-instruct:free"
 ```
 
-## 📊 Performance
+## Performance
 
 - **Embedding Model**: all-MiniLM-L6-v2 (384 dimensions)
 - **Chunk Size**: 1000 characters with 200 overlap
 - **Retrieval**: Top 3 most relevant chunks
 - **Response Time**: ~2-5 seconds (depends on LLM)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 MIT License - see LICENSE file for details
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenRouter for LLM access
 - Hugging Face for sentence-transformers
